@@ -1,10 +1,9 @@
 {
-  "builds": [],
-  "outputDirectory": ".",
-  "redirects": [
-    {
-      "source": "/:path*",
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "buildCommand": null,
+    "outputDirectory": ".",
+    "rewrites": [{
+      "source": "/:path((?!builds/).*)",
       "destination": "/public/:path*"
-    }
-  ]
+    }]
 }
