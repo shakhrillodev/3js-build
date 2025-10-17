@@ -1,0 +1,1 @@
+*{margin:0;padding:0}.webgl{position:fixed;top:0;left:0;outline:none}.progress-bar.ended{transform-origin:right;transform:scaleX(0)!important;transition:transform 1.5s ease}.progress-bar{position:fixed;top:50%;left:0;right:0;transform:translateY(-50%) scaleX(0);transform-origin:left;transition:transform 1s ease;height:3px;background-color:#fff;z-index:10000}
