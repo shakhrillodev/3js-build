@@ -1,7 +1,10 @@
 {
   "builds": [],
-  "outputDirectory": "public",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "outputDirectory": ".",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "/public/:path*"
+    }
   ]
 }
