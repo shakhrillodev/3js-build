@@ -1,9 +1,11 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "buildCommand": null,
-    "outputDirectory": ".",
-    "rewrites": [{
-      "source": "/:path((?!builds/).*)",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/:path((?!assets/)(?!.*\\.html$).*\\..*)",
       "destination": "/public/:path*"
-    }]
+    }
+  ]
 }
